@@ -10,7 +10,7 @@ CREATE TABLE comet (
     distance_from_earth integer,
     age_in_millions_of_years numeric,
     is_spherical boolean,
-    hase_life boolean,
+    has_life boolean,
     description text,
     galaxy_id integer
 );
@@ -23,7 +23,7 @@ CREATE TABLE galaxy (
     distance_from_earth integer,
     age_in_millions_of_years numeric,
     is_spherical boolean,
-    hase_life boolean,
+    has_life boolean,
     description text
 );
 
@@ -37,7 +37,7 @@ CREATE TABLE moon (
     distance_from_earth integer,
     age_in_millions_of_years numeric,
     is_spherical boolean,
-    hase_life boolean,
+    has_life boolean,
     description text,
     planet_id integer
 );
@@ -51,7 +51,7 @@ CREATE TABLE planet (
     distance_from_earth integer,
     age_in_millions_of_years numeric,
     is_spherical boolean,
-    hase_life boolean,
+    has_life boolean,
     description text,
     star_id integer
 );
@@ -66,7 +66,7 @@ CREATE TABLE star (
     distance_from_earth integer,
     age_in_millions_of_years numeric,
     is_spherical boolean,
-    hase_life boolean,
+    has_life boolean,
     description text,
     galaxy_id integer
 );
